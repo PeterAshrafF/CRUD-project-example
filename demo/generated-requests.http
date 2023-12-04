@@ -1,0 +1,31 @@
+###
+POST http://localhost:8080/api/v1/student
+Content-Type: application/json
+
+{
+  "name": "Bilal",
+  "email": "bilal@gmail.com",
+  "dob": "1995-12-17"
+}
+
+<> 2023-12-04T215234.500.json
+<> 2023-12-04T205904.500.json
+<> 2023-12-04T205040.500.json
+<> 2023-12-04T205020.500.json
+<> 2023-12-04T204848.500.json
+
+###
+
+DELETE http://localhost:8080/api/v1/student/1
+
+<> 2023-12-04T214504.500.json
+<> 2023-12-04T214439.500.json
+<> 2023-12-04T205939.500.json
+
+
+
+###
+PUT http://localhost:8080/api/v1/student/2?name=a7a&email=asd@gmail.com
+Content-Type: application/json
+
+<> 2023-12-04T215353.400.json
